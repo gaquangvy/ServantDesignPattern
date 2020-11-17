@@ -1,5 +1,3 @@
 package com.dimitriusramos.servantdesignpattern;
 
-public class iPhone implements MobileDevice {
-
-}
+public class iPhone implements MobileDevice { }

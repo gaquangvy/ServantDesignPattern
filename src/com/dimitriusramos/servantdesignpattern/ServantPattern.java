@@ -20,3 +20,4 @@ public class ServantPattern {
         testClient.turnOnBlueTooth(device, btServant);
     }
 }
+

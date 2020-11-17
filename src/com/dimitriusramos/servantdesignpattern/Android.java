@@ -1,4 +1,4 @@
 package com.dimitriusramos.servantdesignpattern;
 
-public class Android implements MobileDevice {
-}
+public class Android implements MobileDevice {}
+

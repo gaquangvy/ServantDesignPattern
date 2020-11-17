@@ -1,5 +1,3 @@
 package com.dimitriusramos.servantdesignpattern;
 
-public interface MobileDevice {
-
-}
+public interface MobileDevice { }
