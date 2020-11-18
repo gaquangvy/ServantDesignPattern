@@ -1,10 +1,10 @@
 package com.dimitriusramos.servantdesignpattern;
 
-public class BlueToothServant implements BlueTooth {
-    BlueTooth radio = new BlueToothServant();
+public class BlueToothServant{
 
-    public void turnOn(MobileDevice device)
+    public void turnOnBlueTooth(MobileDevice device)
     {
-        System.out.println("turnOn device");
+        device.performStatusCheck();
+        System.out.println("Turning on bluetooth");
     }
 }
