@@ -1,8 +1,7 @@
 package com.dimitriusramos.servantdesignpattern;
 
 public interface MobileDevice {
-
-    public void sendData(String data);
-
-    public boolean performStatusCheck();
+    void sendData(String data);
+    boolean performStatusCheck();
+    void makePhoneCall(String phoneNumber);
 }
